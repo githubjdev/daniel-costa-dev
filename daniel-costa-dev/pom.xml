@@ -6,6 +6,12 @@
 	<artifactId>daniel-costa-dev-plan</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -13,12 +19,6 @@
 		<version>3.3.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-
-	<properties>
-		<java.version>17</java.version>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
-	</properties>
 
 	<dependencies>
 		<!-- Spring Boot Web (para usar CommandLineRunner e logs HTTP se
